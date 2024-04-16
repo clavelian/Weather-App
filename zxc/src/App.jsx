@@ -2,7 +2,8 @@
 import './App.css'
 // import Hello from './HelloWorld'
 // import LampDemo from './components/ui/lamp'
-import BackgroundGradient from './components/ui/background-gradient'
+// import BackgroundGradient from './components/ui/background-gradient'
+import BackgroundGradientDemo from './components/ui/BackgroundGradientDemo'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <>
       {/* <Hello />  */}
       {/* <LampDemo /> */}
-      <BackgroundGradient className='w-96 h-96'/>
+      {/* <BackgroundGradient className='w-96 h-96'/> */}
+      <BackgroundGradientDemo />
     </>
   )
 }
