@@ -6,7 +6,7 @@ import BackgroundGradient from "./background-gradient";
 function BackgroundGradientDemo() {
   return (
     <div>
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[20px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         {/* <Image
           src={`/jordans.webp`}
           alt="jordans"
@@ -30,6 +30,17 @@ function BackgroundGradientDemo() {
           </span>
         </button>
       </BackgroundGradient>
+      <div>
+        <input
+          type="text"
+          placeholder="Type a city"
+          id="City"
+          className="appearance-none border-2 bg-slate-200 w-72 mt-4 px-2 mx-3 text-black"
+        />
+        <button type="submit" className="border-2 rounded-md">
+          Submit
+        </button>
+      </div>
     </div>
   );
 }
