@@ -4,6 +4,8 @@ import './App.css'
 // import LampDemo from './components/ui/lamp'
 // import BackgroundGradientDemo from './components/ui/BackgroundGradientDemo'
 import SparklesPreview from './pages/SparklesDemo'
+import BackgroundBeamsDemo from './pages/BackgroundBeamsDemo'
+
 function App() {
 
 
@@ -26,6 +28,8 @@ function App() {
             Submit
           </button>
         </div>
+
+        <BackgroundBeamsDemo />
     </>
   )
 }
